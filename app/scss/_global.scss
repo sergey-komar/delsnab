@@ -1,0 +1,56 @@
+html,
+body {
+	height: 100%;/*sticky footer*/
+	display: flex;/*sticky footer*/
+	flex-direction: column;/*sticky footer*/
+	margin: 0;
+	scroll-behavior: smooth;
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 19px;
+	color: rgb(58, 58, 58);
+ }
+html{
+	font-size: 10px;
+}
+body > * {
+	flex-shrink: 0;
+	/*sticky footer*/
+  }
+.footer{
+	margin-top: auto;/*sticky footer*/
+}
+button{
+	cursor: pointer;
+}
+.container{
+	max-width: 123rem;
+	margin: 0 auto;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+.btn{
+    text-align: center;
+	border: none;
+    border-radius: 5px;
+    background: rgb(63, 134, 249);
+    color: #fff;
+	transition: all .4s ease-in;
+}
+.btn:hover{
+	background: rgb(9, 85, 208);
+	transition: all .4s ease-in;
+}
+a{
+	transition: all .4s ease-in;
+}
+a:hover{
+	transition: all .4s ease-in;
+}
+.title{
+	font-size: 2.6rem;
+	line-height: 3.1rem;
+	text-transform: uppercase;
+	font-weight: 400;
+}
