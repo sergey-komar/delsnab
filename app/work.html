@@ -9,21 +9,38 @@
 </head>
 
 <body>
-
   <header class="header">
     <div class="container">
       <div class="header__inner">
         <a href="./index.html" class="logo">
-          <img src="./images/home/logo-header.png" alt="img">
+          <img class="logo--desctop" src="./images/home/logo-header.png" alt="img">
+          <img class="logo--mobile" src="./images/home/logo-mobile.png" alt="img">
         </a>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li><a  href="#">Каталог</a></li>
-            <li><a class="menu__list-item--active" href="#">Наши работы</a></li>
-            <li><a href="./about.html">О нас</a></li>
-            <li><a href="./contact.html">Контакты</a></li>
-          </ul>
-        </nav>
+        <div class="menu">
+          <nav class="nav">
+            <ul class="menu__list">
+              <li><a  href="#">Каталог</a></li>
+              <li><a class="menu__list-item--active" href="#">Наши работы</a></li>
+              <li><a href="./about.html">О нас</a></li>
+              <li><a href="./contact.html">Контакты</a></li>
+            </ul>
+          </nav>
+            <div class="box-mobile">
+              <div class="header__contact">
+                <a href="tel:++74955404855" class="header__contact-phone">+7 495 540 48 55</a>
+                <a href="mailto:delsnab@bk.ru" class="header__contact-email">delsnab@bk.ru</a>
+              </div>
+
+              <a href="#" class="header__inner-btn btn">Консультация</a>
+              <div class="header__info">
+                <div class="header__info-date">Пн-пт с 9:00 до 18:00</div>
+                <div class="header__info-address">Мытищи, ул. Силикатная, д.19</div>
+              </div>
+            </div>
+
+        </div>
+
+
         <div class="header__info">
           <div class="header__info-date">Пн-пт с 9:00 до 18:00</div>
           <div class="header__info-address">Мытищи, ул. Силикатная, д.19</div>
@@ -33,16 +50,22 @@
           <a href="mailto:delsnab@bk.ru" class="header__contact-email">delsnab@bk.ru</a>
         </div>
         <a href="#" class="header__inner-btn btn">Консультация</a>
+        <div class="nav-icon">
+          <div class="nav-icon__middle"></div>
+        </div>
+
       </div>
+     
     </div>
   </header>
+  
  
     <main class="main">
       <section class="work">
         <div class="container">
             <div class="work-block">
                 <div class="work-block__category">
-                    <h1 class="work-block__category-title title">наши работы</h1>
+                    <h1 class="work-block__category-title title">Наши работы</h1>
                     <ul class="work-block__list">
                         <li><a class="work-block__category-active" href="#">Внутренние лестницы</a></li>
                         <li><a href="#">Наружные лестницы</a></li>
