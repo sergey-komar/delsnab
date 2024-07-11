@@ -3,22 +3,15 @@
     background: rgb(63, 134, 249);
     color: #fff;
 }
-.container {
-}
 .footer-block {
     display: flex;
     justify-content: space-between;
-}
-.footer-block__item {
 }
 .footer-block__item-logo {
     display: block;
     margin-bottom: 15px;
     font-size: 3.5rem;
-}
-.footer-block__item-subtitle {
-}
-.footer__list {
+    line-height: 3.9rem;
 }
 .footer__list li{
     margin-bottom: 10px;
@@ -55,10 +48,6 @@
 .footer-block__item-email::before{
     background: url('../images/home/icon-footer-email.svg') no-repeat;
 }
-.footer-block__item-address {
-}
-.footer-block__item-email {
-}
 .footer-block__item-btn {
     display: block;
     width: 285px;
@@ -88,4 +77,7 @@
 }
 .footer__bottom-text {
     font-size: 14px;
+}
+.footer-block__item--mobile{
+    display: none;
 }

@@ -1,0 +1,97 @@
+.feedback--contact{
+    background: rgb(63, 134, 249);
+}
+.feedback--contact .feedback-block__lefr-title,
+.feedback--contact .feedback-block__left-text,
+.feedback--contact .feedback-block__item p{
+    color: #fff;
+}
+.are--contact{
+  background: rgb(245, 245, 245);
+}
+.are--contact .are-block__title{
+    color: rgb(58, 58, 58);
+}
+.are--contact .are-wrapper__form{
+    background: rgb(63, 134, 249);
+}
+.are--contact .are-wrapper__form-input{
+    background-color: #fff;
+    opacity: 1;
+    height: 36px;
+    line-height: 36px;
+    padding: 1rem;
+}
+.are--contact .are-wrapper__form-input,
+.are--contact .are-wrapper__form-input::placeholder{
+    color: rgb(63, 134, 249);
+  
+}
+.are--contact .are-wrapper__text p,
+.are--contact .are-wrapper__form-title,
+.are-wrapper__file{
+    color: #fff;
+    opacity: 1;
+}
+.are-wrapper__file{
+    margin-bottom: 1rem;
+}
+.are--contact .are-wrapper__form-input::placeholder,
+.are--contact .are-wrapper__text p{
+    opacity: .4;
+}
+.contact {
+    padding: 12rem 0 12rem 0;
+}
+.are-wrapper__form-btn{
+    background-color: #fff;
+    color: rgb(63, 134, 249);
+}
+.contact-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.contact-block__content {
+    width: 90rem;
+}
+.contact-block__content-img {
+    margin-bottom: 2rem;
+}
+.contact-block__info-text {
+    display: block;
+    margin-bottom: 5px;
+}
+.contact-block__info-text span{
+    font-weight: 700;
+}
+.contact-block__content a:hover{
+    color: rgb(63, 134, 249);
+}
+.contact-production {
+    padding: 12rem 0 12rem 0;
+    background: rgb(63, 134, 249);
+}
+
+.contact-production__box {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.contact-production__box-title {
+    color: #fff;
+}
+.contact-production__gallery {
+    width: 90rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.contact-production__gallery-img:nth-child(2){
+      grid-column: span 2;
+}
+.contact-production__gallery-img:nth-child(3){
+     grid-column: span 3;
+    
+}

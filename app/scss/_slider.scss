@@ -54,7 +54,15 @@
     gap: 10px;
 }
 .manufacturer-slider__arrows .slick-next,
-.manufacturer-slider__arrows .slick-prev{
+.manufacturer-slider__arrows .slick-prev,
+.manufacturer-slider__arrows--mobile .slick-next,
+.manufacturer-slider__arrows--mobile .slick-prev,
+.customers-slider__arrows--mobile .slick-next,
+.customers-slider__arrows--mobile .slick-prev,
+.portfolio-slider__arrows--mobile .slick-next,
+.portfolio-slider__arrows--mobile .slick-prev,
+.certificates-slider__arrows--mobile .slick-next,
+.certificates-slider__arrows--mobile .slick-prev{
     font-size: 0;
     padding: 0;
     border: none;
@@ -62,13 +70,38 @@
     width: 40px;
     height: 40px; 
 }
-.manufacturer-slider__arrows .slick-next{
+.manufacturer-slider__arrows .slick-next,
+.manufacturer-slider__arrows--mobile .slick-next,
+.customers-slider__arrows--mobile .slick-next{
     background: url('../images/home/slider-customers-right.png') no-repeat;
 }
-.manufacturer-slider__arrows .slick-prev{
+.manufacturer-slider__arrows .slick-prev,
+.manufacturer-slider__arrows--mobile .slick-prev,
+.customers-slider__arrows--mobile .slick-prev{
     background: url('../images/home/slider-customers-left.png') no-repeat;
 }
-
+.manufacturer-slider__mobile,
+.manufacturer-slider__box--mobile,
+.manufacturer-slider__arrows--mobile,
+.customers-slider__mobile,
+.customers-slider__box--mobile,
+.customers-slider__arrows--mobile,
+.portfolio-slider__mobile,
+.portfolio-slider__box--mobile,
+.portfolio-slider__arrows--mobile,
+.certificates-slider__arrows--mobile,
+.certificates-slider__mobile,
+.certificates-slider__box--mobile{
+    display: none;
+}
+.portfolio-slider__arrows--mobile .slick-next,
+.certificates-slider__arrows--mobile .slick-next{
+    background: url('../images/home/slider-portfolio-right.png') no-repeat;
+}
+.portfolio-slider__arrows--mobile .slick-prev,
+.certificates-slider__arrows--mobile .slick-prev{
+    background: url('../images/home/slider-portfolio-left.png') no-repeat;
+}
 
 //customers-slider
 .customers-slider {
@@ -129,6 +162,9 @@
 }
 .portfolio-slider__box {
     margin-left: calc(50% - 70rem / 2);
+}
+.portfolio-slider__item{
+    margin: 0 10px 0px 10px;
 }
 .portfolio-slider__item-img {
     margin-bottom: 15px;

@@ -1,0 +1,26 @@
+.vacancies {
+    padding: 12rem 0 12rem 0;
+    background: rgb(245, 245, 245);
+}
+.vacancies-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.vacancies-block__content {
+    width: 90rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.vacancies-block__item {
+    width: calc(100% / 3 - 2ren);
+}
+.vacancies-block__item-img {
+    margin-bottom: 15px;
+}
+.vacancies-block__item-text {
+    font-size: 18px;
+    text-transform: uppercase;
+}

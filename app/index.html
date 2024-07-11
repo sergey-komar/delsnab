@@ -14,16 +14,32 @@
     <div class="container">
       <div class="header__inner">
         <a href="#" class="logo">
-          <img src="./images/home/logo-header.png" alt="img">
+          <img class="logo--desctop" src="./images/home/logo-header.png" alt="img">
+          <img class="logo--mobile" src="./images/home/logo-mobile.png" alt="img">
         </a>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li><a href="#">Каталог</a></li>
-            <li><a href="#">Наши работы</a></li>
-            <li><a href="#">О нас</a></li>
-            <li><a href="#">Контакты</a></li>
-          </ul>
-        </nav>
+        <div class="menu">
+          <nav class="nav">
+            <ul class="menu__list">
+              <li><a href="#">Каталог</a></li>
+              <li><a href="./work.html">Наши работы</a></li>
+              <li><a href="./about.html">О нас</a></li>
+              <li><a href="./contact.html">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="box-mobile">
+            <div class="header__contact">
+              <a href="tel:++74955404855" class="header__contact-phone">+7 495 540 48 55</a>
+              <a href="mailto:delsnab@bk.ru" class="header__contact-email">delsnab@bk.ru</a>
+            </div>
+
+            <a href="#" class="header__inner-btn btn">Консультация</a>
+            <div class="header__info">
+              <div class="header__info-date">Пн-пт с 9:00 до 18:00</div>
+              <div class="header__info-address">Мытищи, ул. Силикатная, д.19</div>
+            </div>
+          </div>
+        </div>
+
         <div class="header__info">
           <div class="header__info-date">Пн-пт с 9:00 до 18:00</div>
           <div class="header__info-address">Мытищи, ул. Силикатная, д.19</div>
@@ -33,19 +49,27 @@
           <a href="mailto:delsnab@bk.ru" class="header__contact-email">delsnab@bk.ru</a>
         </div>
         <a href="#" class="header__inner-btn btn">Консультация</a>
+        <div class="nav-icon">
+          <div class="nav-icon__middle"></div>
+        </div>
       </div>
+
+      
     </div>
   </header>
  
-    <main class="main">
+     <main class="main">
       <div class="heading">
         <div class="container">
           <div class="heading-wrapper">
             <div class="heading-block">
               <div class="heading-block__left">
-                <p class="heading-block__left-subtitle">ЗАВОД МЕТАЛЛОКОНСТРУКЦИЙ</p>
+                <p class="heading-block__left-subtitle">завод металлоконструкций</p>
                 <h1 class="heading-block__left-title">ДЕЛСНАБ</h1>
                 <p class="heading-block__left-text">20 лет на рынке</p>
+                <p class="heading-block__right-text heading-block__right-text--mobile">
+                  Мы производим металлические конструкции типовых серий, выполняем заказы по индивидуальным проектам. Производство – от разработки чертежа до монтажа проходит максимально быстро и с гарантией качества. Возможно изготовление как единичных изделий, так и серийный выпуск требуемой продукции.
+                </p>
                 <div class="heading-block__bottom">
                   <a href="#" class="heading-block__bottom-btn btn">Рассчитать</a>
                   <a href="#" class="heading-block__bottom-button">Заказать звонок</a>
@@ -99,14 +123,14 @@
       <section class="manufacturer-slider">
         <div class="container">
           <div class="manufacturer-slider__top">
-            <h3 class="manufacturer-slider__top-title title">ПРЯМЫЕ ПОСТАВКИ МЕТАЛЛА ОТ ПРОИЗВОДИТЕЛЯ</h3>
+            <h3 class="manufacturer-slider__top-title title">Прямые поставки металла от производителя</h3>
             <div class="manufacturer-slider__top-text">
               Прямые поставки позволяют нам устанавливать максимально доступные цены на всю продукцию. Металлопрокат мы продаем от одного метра до вагонных норм, в случае крупных оптовых заказов цена будет еще более выгодной.
             </div>
           </div>
         </div>
           
-          
+        
         <div class="manufacturer-slider__box">
           <div class="manufacturer-slider__wrapper">
             <div class="manufacturer-slider__item">
@@ -124,7 +148,7 @@
           <div class="manufacturer-slider__wrapper">
             <div class="manufacturer-slider__item">
               <img src="./images/home/manufacturer-2.jpg" alt="" class="manufacturer-slider__box-img">
-              <div class="manufacturer-slider__box-title">пожарные лестницы</div>
+              <div class="manufacturer-slider__box-title">Пожарные лестницы</div>
               <ul class="manufacturer-slider__list">
                 <li class="manufacturer-slider__list-item">П1 вертикальные</li>
                 <li class="manufacturer-slider__list-item"> П2 эвакуационные (тип 3)</li>
@@ -148,7 +172,7 @@
           <div class="manufacturer-slider__wrapper">
             <div class="manufacturer-slider__item">
               <img src="./images/home/manufacturer-1.jpg" alt="" class="manufacturer-slider__box-img">
-              <div class="manufacturer-slider__box-title">закладные детали</div>
+              <div class="manufacturer-slider__box-title">Закладные детали</div>
               <ul class="manufacturer-slider__list">
                 <li class="manufacturer-slider__list-item">арматурные каркасы</li>
               </ul>
@@ -169,16 +193,88 @@
             </div>
           </div>
         </div>
+
+        <div class="manufacturer-slider__mobile">
+          <div class="container">
+            <div class="manufacturer-slider__box--mobile">
+              <div class="manufacturer-slider__wrapper">
+                <div class="manufacturer-slider__item">
+                  <img src="./images/home/manufacturer-1.jpg" alt="" class="manufacturer-slider__box-img">
+                  <div class="manufacturer-slider__box-title">Металлические лестницы</div>
+                  <ul class="manufacturer-slider__list">
+                    <li class="manufacturer-slider__list-item">лестницы на косоурах</li>
+                    <li class="manufacturer-slider__list-item">лестницы на тетивах</li>
+                    <li class="manufacturer-slider__list-item">каркасы лестниц</li>
+                    <li class="manufacturer-slider__list-item">лестницы винтовые</li>
+                  </ul>
+                  <a href="#" class="manufacturer-slider__box-btn btn">Подробнее</a>
+                </div>
+              </div>
+              <div class="manufacturer-slider__wrapper">
+                <div class="manufacturer-slider__item">
+                  <img src="./images/home/manufacturer-2.jpg" alt="" class="manufacturer-slider__box-img">
+                  <div class="manufacturer-slider__box-title">Пожарные лестницы</div>
+                  <ul class="manufacturer-slider__list">
+                    <li class="manufacturer-slider__list-item">П1 вертикальные</li>
+                    <li class="manufacturer-slider__list-item"> П2 эвакуационные (тип 3)</li>
+                    <li class="manufacturer-slider__list-item">маршевые пожарные</li>
+                  </ul>
+                  <a href="#" class="manufacturer-slider__box-btn btn">Подробнее</a>
+                </div>
+              </div>
+              <div class="manufacturer-slider__wrapper">
+                <div class="manufacturer-slider__item">
+                  <img src="./images/home/manufacturer-3.jpg" alt="" class="manufacturer-slider__box-img">
+                  <div class="manufacturer-slider__box-title">Металлокаркасы</div>
+                  <ul class="manufacturer-slider__list">
+                    <li class="manufacturer-slider__list-item">здания из м.конструкций</li>
+                    <li class="manufacturer-slider__list-item">конструкции по чертежам</li>
+                    <li class="manufacturer-slider__list-item">каркасы легкий построек</li>
+                  </ul>
+                  <a href="#" class="manufacturer-slider__box-btn btn">Подробнее</a>
+                </div>
+              </div>
+              <div class="manufacturer-slider__wrapper">
+                <div class="manufacturer-slider__item">
+                  <img src="./images/home/manufacturer-1.jpg" alt="" class="manufacturer-slider__box-img">
+                  <div class="manufacturer-slider__box-title">Закладные детали</div>
+                  <ul class="manufacturer-slider__list">
+                    <li class="manufacturer-slider__list-item">арматурные каркасы</li>
+                  </ul>
+                  <a href="#" class="manufacturer-slider__box-btn btn">Подробнее</a>
+                </div>
+              </div>
+              <div class="manufacturer-slider__wrapper">
+                <div class="manufacturer-slider__item">
+                  <img src="./images/home/manufacturer-1.jpg" alt="" class="manufacturer-slider__box-img">
+                  <div class="manufacturer-slider__box-title">Металлические лестницы</div>
+                  <ul class="manufacturer-slider__list">
+                    <li class="manufacturer-slider__list-item">лестницы на косоурах</li>
+                    <li class="manufacturer-slider__list-item">лестницы на тетивах</li>
+                    <li class="manufacturer-slider__list-item">каркасы лестниц</li>
+                    <li class="manufacturer-slider__list-item">лестницы винтовые</li>
+                  </ul>
+                  <a href="#" class="manufacturer-slider__box-btn btn">Подробнее</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
        
+
+
         <div class="container">
           <div class="manufacturer-slider__arrows"></div>
         </div>
+        <div class="container">
+          <div class="manufacturer-slider__arrows--mobile"></div>
+        </div>
       </section>
-
+ 
       <section class="are">
         <div class="container">
           <div class="are-block">
-            <h3 class="are-block__title title">ЕСЛИ ВЫ ЯВЛЯЕТЕСЬ:</h3>
+            <h3 class="are-block__title title">Если вы являетесь:</h3>
             <div class="are-wrapper">
               <div class="are-box">
                 <div class="are-box__item">
@@ -228,7 +324,7 @@
 
       <section class="customers-slider">
         <div class="container">
-          <h3 class="customers-slider__title title">наши заказчики</h3>
+          <h3 class="customers-slider__title title">Наши заказчики</h3>
         </div>
         
         <div class="customers-slider__box">
@@ -256,15 +352,46 @@
            
           
         </div>
+
+        <div class="customers-slider__mobile">
+          <div class="container">
+            <div class="customers-slider__box--mobile">
+              <div class="customers-slider__wrapper">
+                <div class="customers-slider__item">
+                  <img src="./images/home/customers-1.jpg" alt="img">
+                </div>
+              </div>
+              <div class="customers-slider__wrapper">
+                <div class="customers-slider__item">
+                  <img src="./images/home/customers-2.jpg" alt="img">
+                </div>
+              </div>
+              <div class="customers-slider__wrapper">
+                <div class="customers-slider__item">
+                  <img src="./images/home/customers-3.jpg" alt="img">
+                </div>
+              </div>
+              <div class="customers-slider__wrapper">
+                <div class="customers-slider__item">
+                  <img src="./images/home/customers-4.jpg" alt="img">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="container">
           <div class="customers-slider__arrows"></div>
+        </div>
+        <div class="container">
+          <div class="customers-slider__arrows--mobile"></div>
         </div>
       </section>
 
 
       <section class="portfolio-slider">
         <div class="container">
-          <h3 class="portfolio-slider__title title">портфолио</h3>
+          <h3 class="portfolio-slider__title title">Портфолио</h3>
         </div>
 
         <div class="portfolio-slider__box">
@@ -296,15 +423,54 @@
               </div>
             </div>
         </div>
+
+        <div class="portfolio-slider__mobile">
+            <div class="container">
+              <div class="portfolio-slider__box--mobile">
+                <div class="portfolio-slider__wrapper">
+                  <div class="portfolio-slider__item">
+                    <img src="./images/home/portfolio-1.jpg" alt="img" class="portfolio-slider__item-img">
+                    <div class="portfolio-slider__item-text">Металлические лестницы</div>
+                  </div>
+                </div>
+                <div class="portfolio-slider__wrapper">
+                  <div class="portfolio-slider__item">
+                    <img src="./images/home/portfolio-2.jpg" alt="img" class="portfolio-slider__item-img">
+                    <div class="portfolio-slider__item-text">Пожарные лестницы</div>
+                  </div>
+                </div>
+                 
+      
+                  <div class="portfolio-slider__wrapper">
+                    <div class="portfolio-slider__item">
+                      <img src="./images/home/portfolio-3.jpg" alt="img" class="portfolio-slider__item-img">
+                      <div class="portfolio-slider__item-text">Металлокаркасы</div>
+                    </div>
+                  </div>
+                 
+                  <div class="portfolio-slider__wrapper">
+                    <div class="portfolio-slider__item">
+                      <img src="./images/home/portfolio-2.jpg" alt="img" class="portfolio-slider__item-img">
+                      <div class="portfolio-slider__item-text">закладные детали</div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+
         <div class="container">
           <div class="portfolio-slider__arrows"></div>
         </div>
+        <div class="container">
+          <div class="portfolio-slider__arrows--mobile"></div>
+        </div>
       </section>
+
 
       <section class="about-home">
         <div class="container">
           <div class="about-home__block">
-            <h3 class="about-home__block-title title">о нас</h3>
+            <h3 class="about-home__block-title title">О нас</h3>
             <div class="about-home__box">
               <div class="about-home__number">
                 <div class="about-home__item">
@@ -353,10 +519,10 @@
         </div>
       </section>
 
-
+ 
       <section class="certificates-slider">
         <div class="container">
-          <h3 class="certificates-slider__title title">СЕРТИФИКАТЫ И ЛИЦЕНЗИИ</h3>
+          <h3 class="certificates-slider__title title">Сертификаты и лицензии</h3>
         </div>
         
         <div class="certificates-slider__box">
@@ -387,15 +553,50 @@
           </div>
           
         </div>
+
+        <div class="certificates-slider__mobile">
+          <div class="certificates-slider__box--mobile">
+            <div class="certificates-slider__wrapper">
+              <div class="certificates-slider__item">
+                <img src="./images/home/certificate-1.jpg" alt="img">
+              </div>
+            </div>
+            <div class="certificates-slider__wrapper">
+              <div class="certificates-slider__item">
+                <img src="./images/home/certificate-2.jpg" alt="img">
+              </div>
+            </div>
+            <div class="certificates-slider__wrapper">
+              <div class="certificates-slider__item">
+                <img src="./images/home/certificate-3.jpg" alt="img">
+              </div>
+            </div>
+            <div class="certificates-slider__wrapper">
+              <div class="certificates-slider__item">
+                <img src="./images/home/certificate-2.jpg" alt="img">
+              </div>
+            </div>
+            <div class="certificates-slider__wrapper">
+              <div class="certificates-slider__item">
+                <img src="./images/home/certificate-3.jpg" alt="img">
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
         <div class="container">
           <div class="certificates-slider__arrows"></div>
+        </div>
+        <div class="container">
+          <div class="certificates-slider__arrows--mobile"></div>
         </div>
       </section>
 
       <section class="accardion">
         <div class="container">
           <div class="accardion-block">
-            <h3 class="accardion-block__title title">новости</h3>
+            <h3 class="accardion-block__title title">Новости</h3>
             <div class="questions-accardion">
               <div class="questions__wrapper">
                 <div class="questions-accardion__btn">
@@ -493,7 +694,7 @@
       <section class="stages">
         <div class="container">
           <div class="stages-block">
-            <h3 class="stages-block__title title">этапы работы</h3>
+            <h3 class="stages-block__title title">Этапы работы</h3>
             <div class="stages-box">
               <div class="stages-box__item">
                 <div class="stages-box__item-number">01</div>
@@ -556,7 +757,7 @@
         <div class="container">
           <div class="feedback-block">
             <div class="feedback-block__left">
-              <h3 class="feedback-block__lefr-title title">обратная связь</h3>
+              <h3 class="feedback-block__lefr-title title">Обратная связь</h3>
               <p class="feedback-block__left-text">Пн-пт с 9:00 до 18:00</p>
             </div>
 
@@ -655,9 +856,7 @@
                       Строгое соблюдение стандартов РФ и технических регламентов
                     </p>
                   </div>
-                 
-               
-                
+                   
               </div>
               <div class="principles-block__item">
                 <p class="principles-block__item-text">
@@ -672,6 +871,7 @@
         </div>
       </section>
     </main>
+    
     <footer class="footer">
       <div class="container">
         <div class="footer-block">
@@ -679,13 +879,19 @@
             <a href="#" class="footer-block__item-logo">ЗМК ДЕЛСНАБ</a>
             <div class="footer-block__item-subtitle">20 лет на рынке</div>
           </div>
+          <div class="footer-block__item footer-block__item--mobile">
+            <a href="tel:+" class="footer-block__item-phone">+7 495 540 48 55</a>
+            <p class="footer-block__item-address">Мытищи, ул.Силикатная, д.19</p>
+            <a href="maito:delsnab@bk.ru" class="footer-block__item-email">delsnab@bk.ru</a>
+            <a href="#" class="footer-block__item-btn">Задать вопрос</a>
+          </div>
           <div class="footer-block__item">
             <ul class="footer__list">
               <li><a href="#">Наши работы</a></li>
               <li><a href="#">О нас</a></li>
-              <li><a href="#">Вакансии</a></li>
+              <li><a href="./vacancies.html">Вакансии</a></li>
               <li><a href="#">Контакты</a></li>
-              <li><a href="#">Политика обработки данных</a></li>
+              <li><a href="./policy.html">Политика обработки данных</a></li>
             </ul>
           </div>
           <div class="footer-block__item">
@@ -693,10 +899,12 @@
               <li><a href="#">Металлоконструкции</a></li>
               <li><a href="#">Проектирование</a></li>
               <li><a href="#">Изделия из нержавейки</a></li>
-              <li><a href="#">Карта сайта</a></li>
+              <li><a href="./map.html">Карта сайта</a></li>
+              <li><a href="./thankyou.html">Спасибо</a></li>
+              <li><a href="./404.html">404</a></li>
             </ul>
           </div>
-          <div class="footer-block__item">
+          <div class="footer-block__item footer-block__item--hidden">
             <a href="tel:+" class="footer-block__item-phone">+7 495 540 48 55</a>
             <p class="footer-block__item-address">Мытищи, ул.Силикатная, д.19</p>
             <a href="maito:delsnab@bk.ru" class="footer-block__item-email">delsnab@bk.ru</a>
@@ -709,10 +917,8 @@
           <div class="footer__bottom-text">© Delsnab 2008-2024</div>
         </div>
       </div>
-    </footer>
+    </footer> 
   
-
-
 
   <script src="js/main.min.js"></script>
 </body>

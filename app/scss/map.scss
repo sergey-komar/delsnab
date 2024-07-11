@@ -1,0 +1,32 @@
+.sitemap{
+    padding: 12rem 0 12rem 0;
+}
+.sitemap-block {
+    display: flex;
+    gap: 12rem;
+}
+.sitemap-menu__list li{
+    margin-bottom: 3rem;
+}
+.sitemap-menu__list li a:hover{
+    color: rgb(63, 134, 249);
+}
+.sitemap-menu__list li:nth-child(7),
+.sitemap-menu__list li:nth-child(8){
+    position: relative;
+}
+.sitemap-menu__list .sub-menu{
+    position: absolute;
+    display: none;
+    width: 250px;
+    z-index: 2;
+}
+.sitemap-menu__list .sub-menu li{
+    margin-bottom: 1.5rem;
+}
+.sitemap-menu__list li:nth-child(7):hover .sub-menu,
+.sitemap-menu__list li:nth-child(8):hover .sub-menu{
+    display: block;
+    padding-top: 15px;
+    background-color: #fff;
+}

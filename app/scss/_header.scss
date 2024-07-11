@@ -60,3 +60,15 @@
 .header__inner-btn:hover{
     background: rgb(9, 85, 208);
 }
+.box-mobile{
+    display: none;
+}
+.logo--mobile{
+    display: none;
+}
+body.mobile-class .logo--mobile{
+    display: none;
+}
+body.mobile-class .logo--desctop{
+    display: block;
+}
