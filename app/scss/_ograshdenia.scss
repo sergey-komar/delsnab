@@ -1,0 +1,26 @@
+.ograshdenia-box__info {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.ograshdenia-box__item {
+    width: calc(100% / 3 - 2rem);
+}
+.ograshdenia-box__item-img {
+    margin-bottom: 15px;
+}
+.ograshdenia-box__item-text {
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.ograshdenia-box__list {
+   
+}
+.ograshdenia-box__number .nershaveika-box__list{
+    margin-bottom: 2rem;
+}
+.ograshdenia-box__list-item {
+    margin-bottom: 5px;
+    list-style: disc;
+}

@@ -1,0 +1,115 @@
+.about-home--metallicheckie,
+.about-home--metallicheckie .about-home__number-btn{
+    background: rgb(63, 134, 249);
+    color: #fff;
+}
+.about-home--metallicheckie .about-home__number{
+    background: #fff;
+    color: #3f86f9;
+}
+.about-home--metallicheckie .about-home__item-title,
+.about-home--metallicheckie .about-home__item-text{
+    color: #3f86f9;
+}
+.certificates-slider--metallicheckie{
+    background-color: #fff;
+}
+.nershaveika-box__img{
+    margin-bottom: 3rem;
+}
+
+.metal{
+    padding: 12rem 0 12rem 0;
+    background: rgb(63, 134, 249);
+}
+.metal-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.metal-block__title {
+    color: #fff;
+}
+.metal-box {
+    max-width: 90rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.metal-box__item {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 - 2rem);
+}
+.metal-box__item-img {
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.metal-box__item-text {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.metal-box__list {
+   margin: 0 0 1rem 2rem;
+}
+.metal-box__list-item {
+    margin-bottom: .3rem;
+    list-style: disc;
+    color: #fff;
+}
+.metal-box__item-btn {
+    margin-top: auto;
+    display: block;
+    width: 240px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #3F86F9;
+}
+.contact-production__inner{
+    max-width: 90rem;
+    width: 100%;
+}
+.contact-production--metallicheskie{
+    background-color: #fff;
+}
+.contact-production--metallicheskie .contact-production__box-title{
+    color: #000;
+}
+.metallicheskie-box{
+    margin-top: 2rem;
+}
+.metallicheskie-box__wrapper {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.metallicheskie-box__img:nth-child(1){
+    grid-column: span 2;
+}
+.metallicheskie-box__wrapper-btn {
+    display: block;
+    width: 285px;
+    height: 53px;
+    line-height: 53px;
+    margin: 4rem auto 0 auto;
+}
+.metal-box__item-btn:hover{
+    background: rgb(9, 85, 208);
+    color: #fff;
+}
+.metallicheskie-box__wrapper--hidden{
+    display: none;
+}
+.show-mettal{
+    margin-top: 2rem;
+    display: grid;
+}

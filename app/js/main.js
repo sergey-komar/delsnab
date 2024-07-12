@@ -159,8 +159,16 @@ window.addEventListener('DOMContentLoaded', () => {
          workHidden.classList.add('show');
       })
    }
+
+   const metallicheskiehidden = document.querySelector('.metallicheskie-box__wrapper--hidden');
+   const metallicheskieBtn = document.querySelector('.metallicheskie-box__wrapper-btn');
    
 
+   if(metallicheskieBtn){
+    metallicheskieBtn.addEventListener('click', () => {
+      metallicheskiehidden.classList.add('show-mettal');
+    })
+   }
 
 
    //MENU
