@@ -113,3 +113,174 @@
     margin-top: 2rem;
     display: grid;
 }
+
+
+
+//METALLLESTNICI
+.metalllest {
+   padding-bottom: 12rem;
+}
+.metalllest-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.metalllest-block__item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    width: calc(100% / 3 - 2rem);
+}
+.metalllest-block__item-img {
+    margin-bottom: 15px;
+}
+.metalllest-block__item-title {
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.metalllest-block__item-text {
+    margin-top: auto;
+    font-size: 14px;
+}
+
+
+
+.lestzakaz {
+    padding: 12rem 0 12rem 0;
+    background: rgb(63, 134, 249);
+}
+
+.lestzakaz-block,
+.metallnam-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.lestzakaz-block__title {
+    color: #fff;
+}
+.lestzakaz-box,
+.metallnam-box {
+    max-width: 90rem;
+    width: 100%;
+}
+.lestzakaz-box__text {
+    margin-bottom: 2rem;
+    color: #fff;
+}
+.lestzakaz-box__title {
+    margin-bottom: 3rem;
+    font-size: 2.6rem;
+	line-height: 3.1rem;
+	text-transform: uppercase;
+	font-weight: 400;
+    color: #fff;
+}
+.lestzakaz .nershaveika-box__item-number,
+.lestzakaz .nershaveika-box__item-text{
+    color: #fff;
+}
+.lestzakaz-box-line{
+    margin: 7rem 0 7rem 0;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+.metallnam{
+    padding: 12rem 0 12rem 0;
+    background: rgb(245, 245, 245);
+}
+.metallnam-block__title {
+    width: 280px;
+}
+.metallnam-box__text {
+    margin-bottom: 2rem;
+}
+
+.lestzakaz-box__img{
+    margin-bottom: 3rem;
+}
+
+
+//ЗАКЛАДНЫЕ
+.lestzakaz.zakladnie{
+    padding-top: 0;
+}
+.zakladnie{
+    background-color: #fff;
+}
+.zakladnie .estzakaz-block__title,
+.zakladnie .lestzakaz-box__text,
+.zakladnie .lestzakaz-box__title,
+.zakladnie .nershaveika-box__item-number,
+.zakladnie .nershaveika-box__item-text{
+    color: #000;
+}
+.zakladnie .lestzakaz-box-line{
+    background-color: #000;
+    opacity: .3;
+}
+.zakladnie-box{
+    margin-bottom: 7rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.zakladnie-box__img{
+    width: calc(100% / 3 - 2rem);
+}
+.lestzakaz-box__title{
+    margin-bottom: 3rem;
+}
+
+
+
+//ИСПЫТАНИЯ
+.ispitamia{
+    padding-bottom: 10rem;
+}
+.ispitamia .lestzakaz-box-line{
+    background-color: #000;
+    opacity: .3;
+}
+.nershaveika-box--lestnici.ispitamia .nershaveika-box__number{
+    padding-bottom: 0;
+    border-bottom: none;
+}
+.nershaveika-box--lestnici.ispitamia .nershaveika-box__info{
+    padding-top: 0;
+}
+.ispitania--price .proectirovanie-price__item-text{
+    width: 25%;
+}
+.ispitania--price .proectirovanie-price__item-text:nth-child(2),
+.ispitania--price .proectirovanie-price__item-text:nth-child(4){
+    text-align: center;
+}
+.ispitania--price .proectirovanie-price__wrapper,
+.ispitania--price .proectirovanie-price__box{
+    position: relative;
+}
+.ispitania--price .proectirovanie-price__wrapper::after{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+    top: 0;
+    left: 29%;
+}
+.ispitania--price .proectirovanie-price__box::after{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 85%;
+    background-color: #fff;
+    top: 15%;
+    right:  29%;
+}
+.ispitania-box__subtitle{
+    margin-bottom: 2rem;
+    color: #fff;
+}

@@ -1,6 +1,6 @@
 .nershaveika {
     padding: 12rem 0 12rem 0;
-    background: rgb(245, 245, 245);
+    background: #fff;
 }
 .nershaveika-block {
     display: flex;
@@ -19,16 +19,7 @@
 .aside li:nth-child(2){
     position: relative;
 }
-.aside li:nth-child(1)::before,
-.aside li::before:nth-child(2){
-    position: absolute;
-    content: '';
-    width: 20px;
-    height: 20px;
-    background: url('../images/nershaveika/nershaveika-arrows.svg') no-repeat;
-    top: 0;
-    right: 0;
-}
+
 .aside li:nth-child(1),
 .aside li:nth-child(2){
     position: relative;
@@ -72,6 +63,8 @@ ul[class].aside-menu{
 .aside li:hover ul[class].aside-menu{
     display: block;
 }
+
+
 
 .nershaveika-box {
     max-width: 90rem;
