@@ -116,10 +116,12 @@
     .about-home__block,
     .are-block,
     .feedback-block__contact,
-    .manufacturing-block{
+    .manufacturing-block,
+    .metallnam-block{
         flex-direction: column;
     }
-    .stages-box__item{
+    .stages-box__item,
+    .metallnam-block__title{
         width:100%;
     }
     .stages-box__item-img::after,
@@ -135,7 +137,8 @@
     }
     .manufacturing-box,
     .manufacturing-block__title,
-    .are-box--about{
+    .are-box--about,
+    .nershaveika-box{
         max-width: 100%;
     }
     .about-content__item-text::before{
@@ -147,6 +150,19 @@
     .policy{
         padding: 0 0 4rem 0;
     }
+    .ispitania--price .proectirovanie-price__block-title{
+        display: none;
+    }
+    .metal-box__item{
+        width: calc(100% / 2 - 2rem);
+    }
+    .proectirovanie-price__block{
+        flex-direction: column;
+    }
+    .proectirovanie-price__box{
+        padding-bottom: 2rem;
+        overflow-x: auto;
+    }
 }
 
 
@@ -156,7 +172,9 @@
     .accardion-block,
     .contact-block,
     .contact-production__box,
-    .vacancies-block{
+    .vacancies-block,
+    .lestzakaz-block,
+    .metal-block{
         flex-direction: column;
     }
     .heading-block__left,
@@ -209,7 +227,8 @@
     }
     .work,
     .contact,
-    .vacancies{
+    .vacancies,
+    .lestzakaz{
         padding: 3rem 0 4rem 0;
     }
     .about-block{
@@ -221,6 +240,86 @@
     }
     .about-content__item-text::before{
         width: 116%;
+    }
+    .aside{
+        display: none;
+    }
+    
+    .search__wrapper-filter{
+        display: block;
+        position: relative;
+        margin-left: 3rem;
+        margin-bottom: 2rem;
+    }
+    .search__wrapper-filter::before{
+        position: absolute;
+        content: '';
+        width: 3rem;
+        height: 3rem;
+        background: url('../images/nershaveika/Filters.svg') no-repeat;
+        top: 0;
+        left: -30px;
+    }
+    .sidebar-show{
+        display: block;
+    }
+    .sidebar--mobile{
+        margin-bottom: 2rem;
+        padding: 1rem;
+        background:  #EFF2F7;
+    }
+    .sidebar--mobile li{
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+    .nershaveika{
+        padding: 3rem 0 4rem 0;
+    }
+    .metalllest{
+        padding-bottom: 0;
+    }
+    .aside li a{
+        font-size: 20px;
+        text-transform: none;
+    }
+    .metalllest-block__item{
+        width: calc(100% / 2 - 2rem);
+    }
+   
+    .ispitamia{
+        padding-bottom: 0;
+    }
+    .proectirovanie-price__inner{
+        overflow-x: auto;
+    }
+    .proectirovanie-price__wrapper{
+       min-width: 86rem;  
+    }
+    .proectirovanie-price__inner-box{
+        position: relative;
+        padding-bottom: 2rem;
+        min-width: 86rem;
+    }
+    .proectirovanie-price__inner-box::after{
+        position: absolute;
+        content: '';
+        width: 1px;
+        height: 93%;
+        background-color: #fff;
+        top: 0;
+        right: 29%;
+    }
+    .ispitania--price .proectirovanie-price__box::after{
+        display: none;
+    }
+    .ograshdenia-box__list{
+        margin-left: 2rem;
+    }
+    .ograshdenia-box__info{
+        flex-wrap: wrap;
+    }
+    .ograshdenia-box__item{
+        width: calc(100% / 2 - 2rem);
     }
 }
 
@@ -379,6 +478,12 @@
     .manufacturing-box{
         gap: 3rem;
     }
+    .vacancies-block__item{
+        width: 100%;
+    }
+    .vacancies-block__content{
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -512,7 +617,7 @@
         text-transform: none;
     }
     .vacancies{
-        padding-bottom: 0;
+        padding-bottom: 2rem;
     }
     .sitemap-block{
         flex-direction: column;
@@ -545,6 +650,121 @@
     }
     .error-block__inner-text{
         font-size: 18px;
+        margin-bottom: 2rem;
+    }
+    .nershaveika-box__info-title{
+        margin-bottom: 2rem;
+    }
+    .nershaveika-box__info{
+        padding-bottom: 2rem;
+    }
+    .nershaveika-box__number-title{
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .aside li{
+        margin-bottom: 0;
+    }
+    .aside li a{
+        font-size: 16px;
+        text-transform: none;
+    }
+    .vacancies-block__item-img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .nershaveika-box__item-number{
+        font-size: 4rem;
+    }
+    .nershaveika-box__item{
+        gap: 1.5rem;
+    }
+    .metalllest-block__item{
+        width: 100%;
+    }
+    .metalllest-block__item-title{
+        margin-bottom: 1rem;
+    }
+    .lestzakaz-box-line{
+        margin: 2rem 0 2rem 0;
+    }
+    .lestzakaz-box__title{
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: none;
+    }
+    .metalllest-block__item-title{
+        text-transform: none;
+    }
+    .nershaveika-box__info-text{
+        margin-bottom: 2rem;
+    }
+    .proectirovanie-price{
+        padding: 3rem 0 3rem 0;
+    }
+    .proectirovanie-price__item{
+        padding: 1rem;
+    }
+    .nershaveika-box__info-text:last-child{
+        margin-bottom: 0;
+    }
+    .nershaveika-box--lestnici .nershaveika-box__info{
+        padding-top: 2rem;
+    }
+    .nershaveika-box--lestnici .nershaveika-box__number{
+        padding-bottom: 2rem;
+    }
+    .metal-box__item{
+        width: 100%;
+    }
+    .metal-box__item-btn{
+        max-width: 100%;
+    }
+    .metallicheskie-box__wrapper{
+        padding-bottom: 2rem;
+        display: flex;
+        justify-content: space-between;
+        overflow-x: auto;
+    }
+    .metallicheskie-box__img img{
+        min-width: 285px;
+        height: 100%;
+    }
+    .metallicheskie-box__wrapper--hidden{
+        display: none;
+    }
+    .show-mettal{
+        display: flex;
+    }
+    .contact-production--metallicheskie{
+        display: none;
+    }
+    .metal{
+        padding: 3rem 0 3rem 0;
+    }
+    .metallnam{
+        padding: 3rem 0 3rem 0;
+    }
+    .nershaveika-box__item{
+        margin-bottom: 1rem;
+    }
+    .ograshdenia-box__item{
+        width: 100%;
+    }
+    .ograshdenia-box__item img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .nershaveika-box__item-number{
+        line-height: 5.1rem;
+    }
+    .zakladnie-box__img{
+        width: 100%;
+    }
+    .zakladnie-box__img img{
+        width: 100%;
+    }
+    .zakladnie-box{
         margin-bottom: 2rem;
     }
 }

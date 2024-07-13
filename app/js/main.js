@@ -181,4 +181,12 @@ window.addEventListener('DOMContentLoaded', () => {
     menu.classList.toggle("nav--active");
   });
 
+
+  const filter = document.querySelector('.search__wrapper-filter');
+const sidebar = document.querySelector('.sidebar--mobile');
+
+filter.addEventListener('click', () => {
+  sidebar.classList.toggle('sidebar-show')
+})
+
 });

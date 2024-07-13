@@ -65,7 +65,8 @@
 .metal-box__item-btn {
     margin-top: auto;
     display: block;
-    width: 240px;
+    max-width: 240px;
+    width: 100%;
     height: 53px;
     line-height: 53px;
     text-align: center;
@@ -112,6 +113,9 @@
 .show-mettal{
     margin-top: 2rem;
     display: grid;
+}
+.certificates-slider--metallicheckie .certificates-slider__title{
+    color: #000;
 }
 
 
@@ -232,6 +236,9 @@
 }
 .lestzakaz-box__title{
     margin-bottom: 3rem;
+}
+.zakladnie .lestzakaz-block__title{
+    color: #000;
 }
 
 

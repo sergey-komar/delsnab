@@ -63,7 +63,12 @@ ul[class].aside-menu{
 .aside li:hover ul[class].aside-menu{
     display: block;
 }
-
+.sidebar--mobile{
+    display: none;
+}
+.search__wrapper-filter{
+    display: none;
+}
 
 
 .nershaveika-box {
