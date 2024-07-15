@@ -193,7 +193,6 @@
 }
 .metallnam{
     padding: 12rem 0 12rem 0;
-    background: rgb(245, 245, 245);
 }
 .metallnam-block__title {
     width: 280px;
@@ -210,6 +209,7 @@
 //ЗАКЛАДНЫЕ
 .lestzakaz.zakladnie{
     padding-top: 0;
+    padding-bottom: 0;
 }
 .zakladnie{
     background-color: #fff;
@@ -239,6 +239,12 @@
 }
 .zakladnie .lestzakaz-block__title{
     color: #000;
+}
+.zakladnie-box--mobile{
+    display: none;
+}
+.lestzakaz-box__title--mobile{
+    display: none;
 }
 
 

@@ -133,7 +133,7 @@
         margin-left: 0;
     }
     .feedback-block__item{
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .manufacturing-box,
     .manufacturing-block__title,
@@ -187,7 +187,7 @@
         display: none;
     }
     .heading-block__right-text--mobile{
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
         display: block;
     }
     .manufacturer-slider__box-title{
@@ -208,6 +208,7 @@
     }
     .work-block{
         flex-direction: column;
+        gap: 0;
     }
     .work-block__category{
         width: 100%;
@@ -229,17 +230,20 @@
     .contact,
     .vacancies,
     .lestzakaz{
-        padding: 3rem 0 4rem 0;
+        padding: 5rem 0 5rem 0;
     }
     .about-block{
         flex-direction: column;
     }
     .about,
     .contact-production{
-        padding: 4rem 0 4rem 0;
+        padding: 5rem 0 5rem 0;
     }
     .about-content__item-text::before{
         width: 116%;
+    }
+    .about-block{
+        gap: 3rem;
     }
     .aside{
         display: none;
@@ -273,10 +277,10 @@
         padding-bottom: .5rem;
     }
     .nershaveika{
-        padding: 3rem 0 4rem 0;
+        padding: 5rem 0 0rem 0;
     }
     .metalllest{
-        padding-bottom: 0;
+        padding-bottom: 3rem;
     }
     .aside li a{
         font-size: 20px;
@@ -317,6 +321,7 @@
     }
     .ograshdenia-box__info{
         flex-wrap: wrap;
+        gap: 3.5rem;
     }
     .ograshdenia-box__item{
         width: calc(100% / 2 - 2rem);
@@ -326,36 +331,39 @@
 
 
 @media(max-width:650px){
-    .heading-block__left-subtitle,
+    .heading-block__left-subtitle{
+        font-size: 20px;
+    }
     .heading-block__left-text{
-        font-size: 18px;
-        text-transform: none;
+        font-size: 24px;
     }
     .heading-block__left-title{
-        margin: 20px 0 10px 0;
-        font-size: 27px;
-        line-height: 28px;
+        margin: 20px 0 20px 0;
+        font-size: 64px;
+        line-height: 77px;
+        font-weight: 400;
         letter-spacing: 3px;
     }
     .heading-block__right-text{
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 14px;
+        line-height: 18px;
     }
     .heading-block__bottom{
         flex-wrap: wrap;
+        gap: 1rem;
     }
     .heading-block__bottom-btn,
     .heading-block__bottom-button{
         max-width: 100%;
-        height: 60px;
-        line-height: 60px;
+        height: 69px;
+        line-height: 69px;
     }
     .heading-wrapper,
     .heading{
         min-height: 50rem;
     }
     .heading-block__left{
-        padding-top: 50px;
+        padding-top: 80px;
     }
     .heading-block__left-text{
         margin-bottom: 10px;
@@ -365,16 +373,18 @@
     .stages,
     .feedback,
     .principles{
-        padding: 4rem 0 4rem 0;
+        padding: 5rem 0 5rem 0;
     }
     .title{
-        font-size: 24px;
-        line-height: 28px;
-        text-transform: none;
+        font-size: 20px;
+        line-height: 24px;
     }
     .advantages-box__item{
-        padding: 2rem;
+        padding: 4.5rem;
         width: 100%;
+    }
+    .advantages-box{
+        gap: 1rem;
     }
     .advantages-box__item-btn{
         width: 100%;
@@ -397,11 +407,10 @@
         max-width: 100%;
         font-size: 20px;
         line-height: 24px;
-       text-transform: none;
     }
     .customers-slider,
     .portfolio-slider{
-        padding: 4rem 0 4rem 0;
+        padding: 5rem 0 5rem 0;
     }
     .portfolio-slider__item-text{
         text-transform: none;
@@ -417,13 +426,13 @@
     }
     .about-home,
     .certificates-slider{
-        padding: 4rem 0 4rem 0;
+        padding: 5rem 0 5rem 0;
     }
     .questions-accardion__left img{
         width: 100%;
     }
     .feedback-block__right-map iframe{
-        height: 340px;
+        height: 458px;
     }
     .feedback-block__item p{
         font-size: 16px;
@@ -433,19 +442,25 @@
         margin-bottom: 2rem;
     }
     .manufacturing-box__item-number{
-        font-size: 38px;
-        line-height: 34px;
+        font-size: 48px;
+        line-height: 45px;
     }
     .manufacturing-box__item{
         align-items: flex-start;
     }
     .work-block__item-title{
-        text-transform: none;
+       font-size: 14px;
     }
     .work-block__item-img{
         width: 100%;
         object-fit: cover;
         margin-bottom: 5px;
+    }
+    .work-block__item{
+        margin-bottom: 1rem;
+    }
+    .work__btn{
+        width: 100%;
     }
     .work-block__category-title{
         width: 100%;
@@ -484,7 +499,55 @@
     .vacancies-block__content{
         flex-wrap: wrap;
     }
+    .customers-slider__title,
+    .portfolio-slider__title{
+        margin-bottom: 3rem;
+    }
+    .customers-slider__arrows{
+        margin-top: 1rem;
+    }
+    .manufacturing-block{
+        gap: 4rem;
+    }
+    .work-block__item{
+        width: 100%;
+    }
+    .work-block__list li{
+        min-width: 160px;
+    }
+    .work-block__list li a{
+        font-size: 12px;
+    }
+    .vacancies-block__content{
+        gap: 0;
+    }
+    .contact-production__gallery-img,
+    .contact-production__box-title,
+    .vacancies-block__title,
+    .vacancies-block__item{
+        margin-left: 10px;
+    }
+    .contact-production,
+    .vacancies{
+        display: none;
+    }
+    .vacancies--nershaveika{
+        display: block;
+    }
+    .contact-production--mobile,
+    .vacancies--mobile{
+        display: block;
+    }
+    .nershaveika--ograzhdinia .nershaveika-box__item:last-child,
+    .nershaveika--ograzhdinia .nershaveika-box__number{
+        margin-bottom: 0;
+    }
+
+    
 }
+
+
+
 
 
 @media(max-width:550px){
@@ -502,13 +565,13 @@
     }
     .are,
     .manufacturing{
-        padding: 4rem 0 4rem 0;
+        padding: 5rem 0 4rem 0;
     }
     .are-box__item-number{
         font-size: 35px;
     }
     .are-box__item{
-        margin-bottom: 1rem;
+        margin-bottom: 0;
     }
     .are-box__item-text{
         font-size: 16px;
@@ -521,17 +584,27 @@
         margin-top: 2rem;
     }
     .about-home__item-title{
-        font-size: 3rem;
-        line-height: 4rem;
+        font-size: 5rem;
+        line-height: 7rem;
     }
-    .about-home__info-title{
-        text-transform: none;
+    
+    .advantages-block__title{
+        font-size: 20px;
+        text-transform: uppercase;
     }
     .questions-accardion__title{
-        font-size: 18px;
+        display: block;
+        font-size: 16px;
+        width: 260px;
+    }
+    .questions-accardion__date{
+        font-size: 12px;
+    }
+    .accardion-block{
+        gap: 3rem;
     }
     .questions__wrapper{
-        padding: 1.5rem 0 1.5rem 0;
+        padding: 2rem 0 2rem 0;
     }
     .manufacturing-box__item{
         margin-bottom: 0;
@@ -545,7 +618,10 @@
         margin-bottom: 10px;
     }
     .principles-block{
-        gap: 2rem;
+        gap: 3rem;
+    }
+    .principles-box__wrapper{
+        gap: 1rem;
     }
     .footer-block__item--hidden{
         display: none;
@@ -558,8 +634,17 @@
     .footer{
         padding-top: 4rem;
     }
+    .footer-block__item-subtitle{
+        text-transform: uppercase;
+    }
+    .footer-block__item-logo{
+        margin-bottom: 0;
+    }
+    .footer-block{
+        gap: 3rem;
+    }
     .footer-block__item-phone, .footer-block__item-address, .footer-block__item-email{
-        margin-bottom: 1.5rem;
+        margin-bottom: 2.5rem;
     }
     .footer-block__item-btn{
         width: 100%;
@@ -604,6 +689,7 @@
     }
     .vacancies-block__content{
        overflow-x: auto;
+       flex-wrap: nowrap;
     }
     .vacancies-block__item{
       min-width: 295px;
@@ -614,10 +700,16 @@
         object-fit: cover;
     }
     .vacancies-block__item-text{
-        text-transform: none;
+       font-size: 14px;
     }
     .vacancies{
         padding-bottom: 2rem;
+    }
+    .vacancies--nershaveika{
+        padding-bottom: 5rem;
+    }
+    .nershaveika-box__number{
+        margin-bottom: 4.5rem;
     }
     .sitemap-block{
         flex-direction: column;
@@ -640,26 +732,24 @@
         padding: 2rem 0;
        min-height: unset;
     }
-    .error-block__inner-title,
-    .error-block__inner-numder{
-        margin-bottom: 3rem;
+    .error-block__inner-title{
+        margin-bottom: 6rem;
+        font-size: 40px;
     }
-    .error-block__inner-numder{
-        font-size: 8rem;
-        line-height: 10rem;
+    .thankyou-block__inner-btn{
+        width: 100%;
     }
     .error-block__inner-text{
-        font-size: 18px;
-        margin-bottom: 2rem;
+       font-size: 24px;
     }
     .nershaveika-box__info-title{
         margin-bottom: 2rem;
     }
     .nershaveika-box__info{
-        padding-bottom: 2rem;
+        padding-bottom: 4rem;
     }
     .nershaveika-box__number-title{
-        padding-top: 2rem;
+        padding-top: 4rem;
         margin-bottom: 2rem;
     }
     .aside li{
@@ -674,27 +764,34 @@
         object-fit: cover;
     }
     .nershaveika-box__item-number{
-        font-size: 4rem;
+        font-size: 4.8rem;
+        line-height: 4.1rem;
     }
+    
     .nershaveika-box__item{
+       align-items: flex-start;
         gap: 1.5rem;
     }
     .metalllest-block__item{
         width: 100%;
     }
+    .nershaveika--perila .nershaveika-box__number,
+    .nershaveika--perila .nershaveika-box__number .nershaveika-box__item:last-child{
+        margin-bottom: 0;
+    }
     .metalllest-block__item-title{
         margin-bottom: 1rem;
     }
     .lestzakaz-box-line{
-        margin: 2rem 0 2rem 0;
+        margin: 4rem 0 4rem 0;
     }
     .lestzakaz-box__title{
         font-size: 24px;
         line-height: 28px;
         text-transform: none;
     }
-    .metalllest-block__item-title{
-        text-transform: none;
+    .lestzakaz{
+        padding-bottom: 2rem;
     }
     .nershaveika-box__info-text{
         margin-bottom: 2rem;
@@ -709,10 +806,16 @@
         margin-bottom: 0;
     }
     .nershaveika-box--lestnici .nershaveika-box__info{
-        padding-top: 2rem;
+        padding-top: 0rem;
     }
     .nershaveika-box--lestnici .nershaveika-box__number{
         padding-bottom: 2rem;
+    }
+    .nershaveika-box__img{
+        margin-bottom: 5rem;
+    }
+    .proectirovanie-box{
+        padding-top: 2rem;
     }
     .metal-box__item{
         width: 100%;
@@ -740,13 +843,14 @@
         display: none;
     }
     .metal{
-        padding: 3rem 0 3rem 0;
+        padding: 5rem 0 5rem 0;
     }
+
     .metallnam{
-        padding: 3rem 0 3rem 0;
+        padding: 5rem 0 0rem 0;
     }
     .nershaveika-box__item{
-        margin-bottom: 1rem;
+        margin-bottom: 2.3rem;
     }
     .ograshdenia-box__item{
         width: 100%;
@@ -755,8 +859,8 @@
         width: 100%;
         object-fit: cover;
     }
-    .nershaveika-box__item-number{
-        line-height: 5.1rem;
+    .about-home--metallicheckie .about-home__box{
+        gap: 3rem;
     }
     .zakladnie-box__img{
         width: 100%;
@@ -766,6 +870,67 @@
     }
     .zakladnie-box{
         margin-bottom: 2rem;
+    }
+    .zakladnie-box{
+        display: none;
+    }
+    .zakladnie-box--mobile{
+        padding-bottom: 2rem;
+        display: flex;
+        overflow-x: auto;
+        margin-left: 15px;
+        flex-wrap: nowrap;
+    }
+    .lestzakaz-box__title{
+        display: none;
+    }
+    .lestzakaz-box__title--mobile{
+        max-width: 100%;
+        margin-left: 15px;
+        display: block;
+        color: #000;
+    }
+    .zakladnie-box--mobile .zakladnie-box__img{
+        min-width: 285px;
+    }
+    .about-home__info-img--img{
+        height: 25rem;
+        object-fit: cover;
+    }
+    .certificates-slider__title {
+        margin-bottom: 30px;
+    }
+    .certificates-slider--page .certificates-slider__title{
+        margin-bottom: 50px;
+    }
+    .principles-box__wrapper{
+        margin-bottom: 1rem;
+    }
+    .manufacturer-slider__arrows .slick-next,
+    .manufacturer-slider__arrows .slick-prev,
+    .manufacturer-slider__arrows--mobile .slick-next,
+    .manufacturer-slider__arrows--mobile .slick-prev,
+    .customers-slider__arrows--mobile .slick-next,
+    .customers-slider__arrows--mobile .slick-prev,
+    .portfolio-slider__arrows--mobile .slick-next,
+    .portfolio-slider__arrows--mobile .slick-prev,
+    .certificates-slider__arrows--mobile .slick-next,
+    .certificates-slider__arrows--mobile .slick-prev{
+        width: 26px;
+        height: 26px;
+    }
+    .certificates-slider__item{
+        margin: 0 10px;
+    }
+    .contact-block__info-text:last-child{
+        margin-bottom: 0;
+    }
+    .customers-slider__item{
+        margin: 0 5px 0 5px;
+    }
+    .ispitania--price{
+        margin-top: 5rem;
+        padding: 5rem 0 3rem 0;
     }
 }
 
