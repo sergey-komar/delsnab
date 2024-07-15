@@ -179,6 +179,7 @@ window.addEventListener('DOMContentLoaded', () => {
    document.body.classList.toggle('mobile-class');
     this.classList.toggle("nav-icon--active");
     menu.classList.toggle("nav--active");
+    document.body.classList.toggle('overflow');
   });
 
 

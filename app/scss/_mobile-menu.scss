@@ -99,14 +99,14 @@
         margin-top: 8.5rem;
         align-items: flex-start;
         margin-bottom: 2rem;
-        gap: 2.5rem;
+        gap: 0rem;
     }
     ul.menu__list[class]{
         padding-left: 2rem ;
     }
 
     .menu__list li a {
-        text-align: center;
+        text-align: left;
         font-size: 18px;
         font-weight: 500;
     }
@@ -152,6 +152,24 @@
     }
     .header{
         height: 50px;
+    }
+    .sub-menu{
+        width: 200px;  
+    }
+    ul.sub-menu[class]{
+        padding-left: 0;
+    }
+    .sub-menu .sub-menu{
+        flex-direction: column;
+        left: 0;
+        z-index: 1;
+    }
+    .sub-menu li:hover:first-child>.sub-menu{
+        gap: 1rem;
+    }
+    .sub-menu li a,
+    .sub-menu .sub-menu li a{
+        margin-bottom: 0;
     }
 
 }
