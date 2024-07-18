@@ -171,6 +171,12 @@
     .sub-menu .sub-menu li a{
         margin-bottom: 0;
     }
+    .menu__list .sub-menu li:first-child::before{
+        right: 0;
+    }
+    .menu__list .sub-menu .sub-menu::before{
+        display: none;
+    }
 
 }
 
